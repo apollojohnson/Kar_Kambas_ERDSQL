@@ -1,0 +1,16 @@
+INSERT INTO customer(first_name, last_name, address, email, phone_number)VALUES(),( ),(),(),();
+
+INSERT INTO service(service_id, date, mechanic_id, description, amount )VALUES(),(),(),(),();
+
+INSERT INTO invoice(invoice_id, date, vin, total_amount, part_id, service_id, salesperson_id, mechanic_id, customer_id)VALUES( ),( );
+
+INSERT INTO vendor(vendor_id, vendor_name, phone_number, address)VALUES( ),( );
+
+INSERT INTO car(vin, vendor_id, model, year, color, amount)VALUES( ),( );
+
+INSERT INTO part(part_id, name, description, amount ,vendor_id, sku )VALUES( ),( );
+
+INSERT INTO salesperson(salesperson_id, first_name, last_name)VALUES( ),( );
+
+INSERT INTO mechanic(mechanic_id, first_name, last_name)VALUES( ),( );
+
